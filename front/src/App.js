@@ -5,9 +5,15 @@ import {
   Route
 }from "react-router-dom";
 
-function App = ()=> {
+import Header from "./components/header";
+import Footer from "./components/footer";
+
+
+ const App = ()=> {
   return (
     <Router>
+    <Header/>
+    <Footer/>
     </Router>
   );
 }
