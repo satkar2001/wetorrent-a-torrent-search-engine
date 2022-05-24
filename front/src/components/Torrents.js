@@ -63,7 +63,7 @@ const Torrents = () => {
                         
               </tbody>
           </Table>
-          </>
+          </>//
           );
 }
  
