@@ -1,0 +1,2 @@
+const adminPass = encodeURIComponent(process.env.DB_PASSWORD);
+module.exports.connectionURL=`mongodb+srv://${process.env.DB_USER}:${adminPass}@wetorrent.uyjq5mq.mongodb.net/?retryWrites=true&w=majority`;
