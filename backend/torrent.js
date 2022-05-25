@@ -8,6 +8,10 @@ const schema=new mongoose.Schema(
             type:String,
             trim:true
         },
+        Name: {
+            type: String,
+            trim: true
+        },
         Link:{
             type:String,
             trim:true

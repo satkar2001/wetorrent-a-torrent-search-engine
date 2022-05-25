@@ -10,7 +10,7 @@ mongoose.connect(connectionURL, {
     useNewUrlParser: true
 });
 
-const baseURL = "https://thepiratebays.biz/en";
+const baseURL = "https://www1.thepiratebay3.to/";
 
 function getSize(size) {
     if (size == null) return null;
