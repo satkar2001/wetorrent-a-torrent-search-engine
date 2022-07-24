@@ -15,7 +15,7 @@ const Navi = styled(Nav)`
 
 const Header = () => {
     return (
-        <Navbar bg="dark" variant="dark" fixed="top" style={{ marginBottom: '10px', display: 'block' }}>
+        <Navbar  variant="dark" fixed="top" style={{ marginBottom: '10px', display: 'block' ,backgroundColor:"rgb(8, 35, 69)"}}>
             <Wrapper>
                 <Navbar.Brand href="/">WeTorrent</Navbar.Brand>
                 <Navi>

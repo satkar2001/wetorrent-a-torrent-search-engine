@@ -7,7 +7,7 @@ const Footer = () => {
       <footer style={{
           width:"100%",
           height:"56px",
-          backgroundColor:"rgb(53,58,64)",
+          backgroundColor:"rgb(8, 35, 69)",
           display:"flex",
           alignItems:"center",
           position:"fixed",
@@ -17,7 +17,7 @@ const Footer = () => {
               <span>
                   <strong style={{color:"white"}}>&copy; WeTorrent</strong>
                   &nbsp;&nbsp;&nbsp;
-                  <Link to="/about">About</Link>
+                  <Link to="/about" style={{ textDecoration: 'none',marginLeft:'50px'}}>About</Link>
               </span>
           </Container>
       </footer>
